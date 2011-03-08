@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Album>
+
+@{
+    ViewBag.Title = "MVC Music Store Grid";
+}
+
+@using (Ajax.BeginForm(new AjaxOptions 
+    { InsertionMode = InsertionMode.Replace, UpdateTargetId = "myGrid" }))
+{
+    <fieldset>
+        <legend>Search</legend>
+
+        <div>
+            Album Id:
+        </div>
+        <div>
+            <input type="text" id="albumid" name="albumid" />
+        </div>
+
+        <div>
+            Album Name:
+        </div>
+        <div>
+            <input type="text" id="albumName" name="albumName" />
+        </div>
+
+        <p>
+            <input type="submit" value="Search" />
+        </p>
+    </fieldset>
+}
+
+<div id="myGrid">
+    @Html.Partial("_grid", Model)
+</div>

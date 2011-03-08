@@ -1,0 +1,5 @@
+c:\users\ely\documents\visual studio 2010\Projects\MvcWebGrid\MvcWebGrid\bin\MvcWebGrid.dll
+c:\users\ely\documents\visual studio 2010\Projects\MvcWebGrid\MvcWebGrid\bin\MvcWebGrid.pdb
+c:\users\ely\documents\visual studio 2010\Projects\MvcWebGrid\MvcWebGrid\obj\Debug\ResolveAssemblyReference.cache
+c:\users\ely\documents\visual studio 2010\Projects\MvcWebGrid\MvcWebGrid\obj\Debug\MvcWebGrid.dll
+c:\users\ely\documents\visual studio 2010\Projects\MvcWebGrid\MvcWebGrid\obj\Debug\MvcWebGrid.pdb

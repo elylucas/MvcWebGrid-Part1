@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Album>
+
+@{
+    var grid = new WebGrid(Model, rowsPerPage: 15, ajaxUpdateContainerId: "myGrid");
+    @grid.GetHtml(columns: grid.Columns(
+                        grid.Column("AlbumId", "Album Id"),
+                        grid.Column("Title", "Title"),
+                        grid.Column("Artist", "Artist")
+                        ));
+}

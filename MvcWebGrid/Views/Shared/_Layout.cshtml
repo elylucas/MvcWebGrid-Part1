@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/jquery-1.4.4.min.js")" type="text/javascript"></script>
+    <script type="text/javascript" src="../../Scripts/jquery.unobtrusive-ajax.min.js">
+    </script>    
+</head>
+
+<body>
+    <div id="header">
+        Welcome to my awesome music site where 
+        a deep dish of awesome stew is served up daily
+        <p/> <p /><p />
+    </div>
+    
+    @RenderBody()
+
+    <div id="footer">
+        <p/> <p /><p />
+        You have reached the bottom of this page, now what?
+    </div>
+</body>
+</html>
